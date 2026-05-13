@@ -1,33 +1,26 @@
-# Build directories
+# build folder
 build/
-cmake_build_debug/
-cmake_build_release/
-CMakeFiles/
-*.cmake
 
-# Compiled output
-*.o
-*.a
-*.so
-*.dylib
-*.dll
+# Executables
 *.exe
-*.out
 
-# CMake
+# Object files
+*.o
+*.obj
+
+# CMake generated files
+CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+Makefile
 
-# IDE
+# VS Code settings
 .vscode/
-.idea/
-*.swp
-*.swo
-*~
 
-# OS
+# Temporary files
+*.log
+*.tmp
+
+# OS files
 .DS_Store
 Thumbs.db
-
-# Misc
-*.log
